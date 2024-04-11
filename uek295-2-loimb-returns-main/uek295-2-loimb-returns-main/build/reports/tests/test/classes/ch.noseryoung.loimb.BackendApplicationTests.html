@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BackendApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BackendApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ch.noseryoung.loimb.html">ch.noseryoung.loimb</a> &gt; BackendApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.007s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">1.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:33:13.068 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ch.noseryoung.loimb.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:33:13.248 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ch.noseryoung.loimb.BackendApplication for test class ch.noseryoung.loimb.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-04-10T20:33:13.973+02:00  INFO 7492 --- [    Test worker] c.n.loimb.BackendApplicationTests        : Starting BackendApplicationTests using Java 20.0.2 with PID 7492 (started by loris in C:\Users\loris\Downloads\uek295-1-floew-returns-main (2)\uek295-1-floew-returns-main)
+2024-04-10T20:33:13.976+02:00  INFO 7492 --- [    Test worker] c.n.loimb.BackendApplicationTests        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-04-10T20:33:15.511+02:00  INFO 7492 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-10T20:33:15.613+02:00  INFO 7492 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2024-04-10T20:33:16.508+02:00  INFO 7492 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-10T20:33:16.628+02:00  INFO 7492 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-10T20:33:16.692+02:00  INFO 7492 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-10T20:33:17.218+02:00  INFO 7492 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-10T20:33:17.267+02:00  INFO 7492 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-10T20:33:17.578+02:00  INFO 7492 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d4ecdb0
+2024-04-10T20:33:17.580+02:00  INFO 7492 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-10T20:33:19.087+02:00  INFO 7492 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-10T20:33:19.245+02:00  INFO 7492 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-10T20:33:20.084+02:00  WARN 7492 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-10T20:33:20.793+02:00  INFO 7492 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@50b010d4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@510d4d4b, org.springframework.security.web.context.SecurityContextHolderFilter@225b460a, org.springframework.security.web.header.HeaderWriterFilter@59eb987a, org.springframework.security.web.authentication.logout.LogoutFilter@48dfce5c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ae37be2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71d0ad00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56c7e2d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12f32f99, org.springframework.security.web.session.SessionManagementFilter@283595db, org.springframework.security.web.access.ExceptionTranslationFilter@3021e31, org.springframework.security.web.access.intercept.AuthorizationFilter@4fe687b5]
+2024-04-10T20:33:21.608+02:00  INFO 7492 --- [    Test worker] c.n.loimb.BackendApplicationTests        : Started BackendApplicationTests in 8.036 seconds (process running for 10.173)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 10.04.2024, 20:33:22</p>
+</div>
+</div>
+</body>
+</html>
