@@ -58,4 +58,5 @@ Upon starting the backend, some values are stored in the database. You can view 
   - Username: loris
   - Password: 12345678
 
-### To view your API documentation from Swagger, navigate to http://localhost:8080/swagger-ui/index.html#/ in your web browser.
+
+#### To view your API documentation from Swagger, navigate to http://localhost:8080/swagger-ui/index.html#/ in your web browser.
